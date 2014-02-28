@@ -9,8 +9,6 @@ app.controller('ReaderCtrl', function ($scope) {
   // DOM variables
   var readerElem = document.querySelector('#reader');
 
-
-
   // puts the center letter of a word in a highlight span
   var processWord = function (word) {
     var center = Math.floor(word.length / 2);
